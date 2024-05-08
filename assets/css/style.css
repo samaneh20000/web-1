@@ -1,0 +1,267 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { 
+    font-family: sans-serif;
+}
+.s-bg-tomato{
+    background-color: #ee6e73 !important;
+}
+.s-bg-success{
+    background-color: #388e3c !important;
+}
+.s-bg-info{
+background-color: #0097a7 !important;
+}
+.s-bg-warning{
+background-color: #ffa000 !important;
+}
+.s-bg-danger{
+background-color: #D32f2f !important;
+}
+.s-text-tomato{
+    color: #ee6e73 !important;
+}
+.s-text-success{
+    color: #388e3c !important;
+}
+.s-text-info{
+    color: #0097a7 !important;
+}
+.s-text-warning{
+    color: #ffa000;
+}
+.s-text-danger{
+    color: #D32f2f;
+}
+/*top menu*/
+.top-menu{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#header{
+    display: none;
+}
+
+#header .top-menu-space{
+    height: 60px;
+}
+#header .nav-icon{
+    color: white;
+    font-size: 40px;
+    margin-left:50px ;
+    margin-top: 5px;
+    display: inline-block;
+
+}
+@media  screen and (max-width: 980px) {
+    #header {
+        display: block;
+
+    }
+}
+/* aside */
+
+#aside{
+    width: 300px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#aside .top {
+    position: relative;
+}
+#aside .top>img {
+    width: 100%;
+    display: block;
+    }
+#aside .overlay{
+    top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+#aside .avatar>img{
+ width: 64px; 
+ height: 64px; 
+ border-radius: 50%; 
+}
+#aside .intro{
+    font-size: 12px;
+    color: rgb(71, 68, 68);
+    font-weight: 100;
+    margin-top:10px ;
+}
+#aside .social {
+    margin-top: 30px;
+}
+#aside .social a {
+    color: rgb(12, 11, 11);
+    margin-right: 10px;
+}
+#aside  .sidenav ul{
+    background-color: white;
+    height: 100%;
+}
+#aside  .sidenav li {
+    list-style-type: none;
+    padding:  15px 30px;
+    font-size: 15px;
+    color: rgb(68, 67, 67);
+    cursor: pointer;
+}
+#aside  .sidenav li:hover{
+    background-color: rgb(248, 234, 234);
+}
+#aside  .sidenav li i {
+    margin-right: 12px;
+}
+
+   
+/*maincontent*/
+#maincontent {
+    margin-left: 300px;
+    padding:20px;
+    
+}
+.s-card-img-top{
+    height: 364px;
+    background-position: center center;
+    background-size: cover;
+    
+
+}
+.s-mb{
+    display: flex;
+}
+.s-row{
+    display: flex;
+}
+.s-center{
+    text-align: center;
+}
+.s-muted{
+    color: rgba(66, 64, 61, 0.536);
+    font-size: smaller;
+}
+.s-boxshadow{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0/ 15%);
+}
+.header-profile .header-introduce {
+    width: 360px;
+    position: relative;
+    padding-left: 150px;
+}
+.header-profile .header-introduce img{
+    
+    position: absolute;
+    border-radius: 100%;
+    width: 80px;
+    top: -40px;
+    left: 60px;
+}
+.header-profile .header-details item {
+    width: 360px;
+    margin-right: 100px;
+    padding-left: 100px;
+} 
+.header-profile .header-details .item{
+  width: 33%; 
+  margin-right: 80px;
+  padding-left: 80px;
+  
+}
+.header-profile .s-card-content{
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+.s-card-content.header-details,.s-card-content.header-introduce{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+    
+
+
+/*stats*/
+
+.stats .item {
+  
+    width: 25%;
+    color: white;
+    padding:0 5px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.stats .detail  {
+    padding:  20px 0;
+    text-align: center;
+}
+.s-mb{
+    margin-bottom: 30px;
+}
+.stats.title{
+    font-size: 25px;
+}
+.stats- .s-row{
+    margin-left: -5px;
+    margin-right: -5px;
+    flex-wrap: wrap;
+}
+@media screen and(max-width: 700px) {
+    .s-card-content.header-details{
+        margin-left: auto;
+        margin-right: auto;
+    }
+@media screen and ( max-width : 1200px) {
+    .stats.item{
+        width: 50%;
+    }
+}
+   
+)
+
+
+
+}
+@media screen and(max-width: 700px) {
+    .s-card-content.header-details{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s-card-content-profile>.s-row{
+       flex-wrap: wrap;
+ }  
+
+ @media  screen and (max-width: 980px) {
+    #aside {
+        display: none;
+    }
+
+    @media screen and (max-width: 980px){
+        #header{
+          display: block;
+        }
+      }
+
+
+
+
+
+ 
+
+
