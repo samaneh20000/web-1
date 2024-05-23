@@ -28,10 +28,11 @@
         padding: 60px 350px;
         display: flex;
         justify-content: space-between;
+       border-radius: 2px;
       }
      
       .Gallery__discription-container {
-        padding-left: 20px;
+        padding-left: 40px;
       }
      
       .Gallery__discription-container{
@@ -39,12 +40,21 @@
       }
       .Gallery__img-logo
      {
-      padding: 30px;
+      width: 2px;
+      padding-left: 500px;
+      padding-bottom: 200px;
      }
+     @media only screen and (max-width: 600px) {
+     .Gallery__img-container{
+      display: none;
+    }
+     
+  }
+  
     </style>
   </head>
   <body>
-    <header class="header">
+    <header dir="rtl" class="header">
       <div class="header__content-container">
         <div class="header__logo-container">
           <a href="#" class="header__logo-link">
@@ -74,13 +84,13 @@
     <main>
       <section>
         <div
-          style="background-image: url(assets/image/header/ideas\ &\ tips.jpeg)"
+          style="background-image: url(assets/image/header/idea2.jpg)"
           class="top-banner"
         >
           <h1 class="top-banner__content">Ideas & Tips</h1>
         </div>
       </section>
-      <section>
+      <section dir="rtl">
         <div class="Gallery__container">
           <div class="Gallery__img-container">
             <img
@@ -88,6 +98,7 @@
               src="assets/image/header/idea1.jpg"
               alt=""
             />
+          
           
            
               <div class="Gallery__discription-container">
@@ -109,6 +120,10 @@
                 <p><bold>Category</bold></p>
                 <p style="color: gray;">Decoration Style</p>
                 <br>
+                <br>
+                
+                
+
                 <p ><bold>Tags</bold></p>
                 <br>
                 <p style="color: gray;"> Minimalism  &nbsp;  &nbsp; white &nbsp; Decoration &nbsp; Bandung &nbsp; Sibple
@@ -116,13 +131,83 @@
                 
                 
               </div>
+          
             </div>
+            <div style="padding-right:500px;" class="Gallery__img-logo">
+              <img src="assets/image/header/Group 50.png" alt=""></div>
           </div>
-          <div class="Gallery__img-logo">
-            <img src="assets/image/header/Group 50.png" alt="">
-          </div>
+         
         </div>
       </section>
     </main>
+    <footer dir="rtl" class="footer">
+      <div class="footer__container">
+        <div class="footer__top">
+          <p>Featured / Ideas & Venue</p>
+          <div>
+            <img src="assets/image/footer/footer flash.png" alt="" />
+          </div>
+        </div>
+        <div class="footer__middle">
+          <div class="footer__logo-container">
+            <img class="footer__logo-img" src="assets/image/Logo.png" alt="" />
+          </div>
+          <div class="footer__cols">
+            <div class="footer__col">
+              <h2>About Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                urna, porttitor rhoncus.
+              </p>
+            </div>
+            <div class="footer__col">
+              <h2>Our Featured</h2>
+              <ul class="footer__col-list">
+                <li class="footer__col-list-item">
+                  <a href="#">Photography</a>
+                </li>
+                <li class="footer__col-list-item">
+                  <a href="#">Make Up Artist</a>
+                </li>
+                <li class="footer__col-list-item">
+                  <a href="#">Decoration</a>
+                </li>
+                <li class="footer__col-list-item"><a href="#">Venue</a></li>
+                <li class="footer__col-list-item">
+                  <a href="#">Ideas & Tips</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h2>Latest Tweets</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+                urna, porttitor rhoncus.
+              </p>
+              <p>#ipsumdolor #sitamet #purus #luctus #venenatis</p>
+              <p>@lectus@magna@fringilla</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-items">
+            <p>2020 Wedding by Formatika Studio</p>
+          </div>
+              <div class="footer__bottom-contact">
+                <img src="assets/image/footer/entypo_phone.png" alt="" />
+                <p>0832-2131-3849</p>
+              </div>
+              <div class="footer__bottom-contact">
+                <img src="assets/image/footer/ion_mail.png" alt="" />
+                <p>weddings@saarah.com</p>
+      
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
-</html>
+  </html>
